@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Redligstone/CryptoTracker/static/css/main.b23951f1.css",
-    "main.js": "/Redligstone/CryptoTracker/static/js/main.b603dac6.js",
-    "static/js/450.d670914e.chunk.js": "/Redligstone/CryptoTracker/static/js/450.d670914e.chunk.js",
-    "static/js/486.b4caeb9d.chunk.js": "/Redligstone/CryptoTracker/static/js/486.b4caeb9d.chunk.js",
-    "static/media/banner2.jpg": "/Redligstone/CryptoTracker/static/media/banner2.19419d69e5001e322fee.jpg",
-    "index.html": "/Redligstone/CryptoTracker/index.html",
-    "main.b23951f1.css.map": "/Redligstone/CryptoTracker/static/css/main.b23951f1.css.map",
-    "main.b603dac6.js.map": "/Redligstone/CryptoTracker/static/js/main.b603dac6.js.map",
-    "450.d670914e.chunk.js.map": "/Redligstone/CryptoTracker/static/js/450.d670914e.chunk.js.map",
-    "486.b4caeb9d.chunk.js.map": "/Redligstone/CryptoTracker/static/js/486.b4caeb9d.chunk.js.map"
+    "main.css": "/CryptoTracker/static/css/main.80bac82e.css",
+    "main.js": "/CryptoTracker/static/js/main.05eb6bde.js",
+    "static/js/450.d670914e.chunk.js": "/CryptoTracker/static/js/450.d670914e.chunk.js",
+    "static/js/486.b4caeb9d.chunk.js": "/CryptoTracker/static/js/486.b4caeb9d.chunk.js",
+    "static/media/banner2.jpg": "/CryptoTracker/static/media/banner2.19419d69e5001e322fee.jpg",
+    "index.html": "/CryptoTracker/index.html",
+    "main.80bac82e.css.map": "/CryptoTracker/static/css/main.80bac82e.css.map",
+    "main.05eb6bde.js.map": "/CryptoTracker/static/js/main.05eb6bde.js.map",
+    "450.d670914e.chunk.js.map": "/CryptoTracker/static/js/450.d670914e.chunk.js.map",
+    "486.b4caeb9d.chunk.js.map": "/CryptoTracker/static/js/486.b4caeb9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b23951f1.css",
-    "static/js/main.b603dac6.js"
+    "static/css/main.80bac82e.css",
+    "static/js/main.05eb6bde.js"
   ]
 }
