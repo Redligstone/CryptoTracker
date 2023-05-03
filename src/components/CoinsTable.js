@@ -85,7 +85,7 @@ function CoinsTable() {
                                 const profit = row.price_change_percentage_24h > 0;
 
                                 return(
-                                    <TableRow onCLick={() => navigate(`/coins/${row.id}`)}
+                                    <TableRow onClick={() => navigate(`/coins/${row.id}`)}
                                     className='table__row' key={row.name}>
                                         <TableCell component='th' scope='row' style={{display:"flex",gap:15,}}>
                                             <img src={row?.image} alt={row.name} height="50" style={{marginBottom:10}}/>

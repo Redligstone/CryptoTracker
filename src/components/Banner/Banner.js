@@ -12,14 +12,14 @@ function Banner() {
                     marginBottom:15,
                     fontFamily:"Montserrat"
                 }}>
-                    Crypto Track
+                    Crypto Tracker
                 </Typography>
                 <Typography variant='subtitle2' style={{
                     color:"darkgrey",
                     textTransform:"capitalize",
                     fontFamily:"Montserrat"
                 }}>
-                    Crypto Track
+                    Get All The Info Regarding Your Favourite Crypto Currency
                 </Typography>
 
             </div>

@@ -27,23 +27,6 @@ const CoinInfo = ({ coin }) => {
     FetchChart();
   }, [currency, days]);
 
-//   const chartData = {
-//     labels: historicalData.map((data) => {
-//       let date = new Date(data[0]);
-//       let time =
-//         date.getHours() > 12
-//           ? `${date.getHours() - 12}:${date.getMinutes()} PM`
-//           : `${date.getHours()}:${date.getMinutes()} AM`;
-//       return days === 1 ? time : date.toLocaleDateString();
-//     }),
-//     datasets: [
-//       {
-//         label: `Price (Past ${days} Days) in ${currency}`,
-//         data: historicalData.map((data) => data[1]),
-//         borderColor: "#EEBC1D",
-//       },
-//     ],
-//   };
   const chartData = useMemo(() => {
     const mappedData = historicalData.map((data) => {
       let date = new Date(data[0]);
@@ -89,28 +72,7 @@ const CoinInfo = ({ coin }) => {
       },
     };
   }, []);
-//   const chartOptions = {
-//     scales: {
-//       xAxes: [
-//         {
-//           type: "category",
-//           ticks: {
-//             autoSkip: true,
-//             maxTicksLimit: 20,
-//             callback: function (value, index, values) {
-//               return value.split(" ")[0];
-//             },
-//             beginAtZero: true,
-//           },
-//         },
-//       ],
-//     },
-//     elements: {
-//       point: {
-//         radius: 2,
-//       },
-//     },
-//   };
+
 
   useEffect(() => {
     let chartInstance = null;
