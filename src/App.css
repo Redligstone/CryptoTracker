@@ -1,38 +1,195 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,regular,800,900');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: gold;
+}
+
+.app {
+    background-color: #14161a;
+    color: white;
+    min-height: 100vh;
+  }
+  .header__element{
+    background-color: #14161a !important;
+  }
+
+.title{
+    flex: 1;
+    color: gold;
+    font-family: Montserrat;
+    font-weight: 800 !important;
+    cursor: pointer;
+}
+
+.banner{
+  background-image: url(../public/banner2.jpg);
+  height: 400px;
+}
+.banner__content{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 25px;
+  justify-content: space-around;
+}
+
+.banner__tagline{
+  display: flex;
+  height: 40%;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.banner__carausel{
+  height: 50%;
+  display: flex;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.carausel__Item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: gold;
+  text-align: center;
+  justify-content: center;
+}
+.table__row{
+  background-color: #16171a;
+  cursor: pointer;
+  font-family: Montserrat;
+}
+.table__row:hover{
+  background-color: #131111;
+}
+
+button.MuiButtonBase-root.MuiPaginationItem-root.MuiPaginationItem-page{
+  color: gold;
+  padding: 25px;
+}
+
+.coin__container{
+  display: flex;
+  align-items: center;
+}
+@media(max-width:450px){
+  .coin__container{
+    display: flex;
+    align-items: center;
   }
 }
+.coin__sidebar{
+width: 30%;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 25px;
+border-right: 2px solid grey;
+}
+.coin__chart{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.coin__sidebar__title{
+font-weight: bold;
+margin-bottom: 20px;
+font-family: Montserrat;
+}
+.coin__sidebar__description{
+  width: 100%;
+  font-family: Montserrat;
+  padding: 25px;
+  padding-bottom: 15px;
+  padding-top: 0px;
+  text-align: justify;
+}
+.coin__sidebar__data{
+  align-self: flex-start;
+  padding: 25px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.chart__container{
+  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 25px;
+  padding: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.chart__buttons{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.chart__button-item{
+  border: 1px solid gold;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Montserrat;
+  cursor: pointer;
+  font-weight: 500;
+  width: 22%;
+  text-align: center;
+}
+.chart__button-item-selected{
+  font-weight: 700;
+  background-color: gold;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Montserrat;
+  cursor: pointer;
+  width: 22%;
+  text-align: center;
+}
+.chart__button-item:hover{
+  background-color: gold;
+  color: black;
+}
+
+@media(max-width:800px){
+  .coin__container{
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+  .coin__sidebar{
+    width: 100%;
+  }
+  .coin__sidebar__data{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+  }
+  .chart__container{
+    width: 100%;
+    margin-top: 0;
+    padding: 20px;
+    padding-top: 0;
+  }
+}
+
+@media(max-width:770px){
+  .coin__sidebar__data{
+    flex-direction: column;
   }
 }
