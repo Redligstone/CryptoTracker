@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Redligstone/CryptoTracker/static/css/main.b23951f1.css",
+    "main.js": "/Redligstone/CryptoTracker/static/js/main.e8a89fa1.js",
+    "static/media/banner2.jpg": "/Redligstone/CryptoTracker/static/media/banner2.19419d69e5001e322fee.jpg",
+    "index.html": "/Redligstone/CryptoTracker/index.html",
+    "main.b23951f1.css.map": "/Redligstone/CryptoTracker/static/css/main.b23951f1.css.map",
+    "main.e8a89fa1.js.map": "/Redligstone/CryptoTracker/static/js/main.e8a89fa1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b23951f1.css",
+    "static/js/main.e8a89fa1.js"
+  ]
+}
