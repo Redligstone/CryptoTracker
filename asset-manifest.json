@@ -1,14 +1,18 @@
 {
   "files": {
     "main.css": "/Redligstone/CryptoTracker/static/css/main.b23951f1.css",
-    "main.js": "/Redligstone/CryptoTracker/static/js/main.e8a89fa1.js",
+    "main.js": "/Redligstone/CryptoTracker/static/js/main.b603dac6.js",
+    "static/js/450.d670914e.chunk.js": "/Redligstone/CryptoTracker/static/js/450.d670914e.chunk.js",
+    "static/js/486.b4caeb9d.chunk.js": "/Redligstone/CryptoTracker/static/js/486.b4caeb9d.chunk.js",
     "static/media/banner2.jpg": "/Redligstone/CryptoTracker/static/media/banner2.19419d69e5001e322fee.jpg",
     "index.html": "/Redligstone/CryptoTracker/index.html",
     "main.b23951f1.css.map": "/Redligstone/CryptoTracker/static/css/main.b23951f1.css.map",
-    "main.e8a89fa1.js.map": "/Redligstone/CryptoTracker/static/js/main.e8a89fa1.js.map"
+    "main.b603dac6.js.map": "/Redligstone/CryptoTracker/static/js/main.b603dac6.js.map",
+    "450.d670914e.chunk.js.map": "/Redligstone/CryptoTracker/static/js/450.d670914e.chunk.js.map",
+    "486.b4caeb9d.chunk.js.map": "/Redligstone/CryptoTracker/static/js/486.b4caeb9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b23951f1.css",
-    "static/js/main.e8a89fa1.js"
+    "static/js/main.b603dac6.js"
   ]
 }
